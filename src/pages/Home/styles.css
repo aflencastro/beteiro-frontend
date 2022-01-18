@@ -1,0 +1,28 @@
+.page {
+    background-color: #2d9e7a;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100% !important;
+}
+
+.intro {
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Tahoma,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Open Sans,sans-serif;
+    font-size: 12vw !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+    .intro span {
+        color: #ffe418
+    }
+
+.list-inline-dots .list-inline-item + .list-inline-item::before {
+    content: " - "
+} 
