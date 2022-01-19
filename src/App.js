@@ -1,11 +1,11 @@
 import React from 'react';
 
 // import './global.css'
-import Routes from './routes';
+import Rotas from './routes';
 
 function App() {
   return (
-    <Routes />
+    <Rotas />
   );
 }
 

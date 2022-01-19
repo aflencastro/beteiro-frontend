@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiMail, FiKey, FiUserPlus, FiArrowLeft } from 'react-icons/fi';
+import { FiArrowLeft } from 'react-icons/fi';
 
 import './styles.css';
 
@@ -10,7 +10,7 @@ export default function SignUp() {
             <div className="container-tight py-4">
                 <div className="text-center mb-4">
                     <Link to="/Auth/Login">
-                        <FiArrowLeft/>
+                        <FiArrowLeft size={38}/>
                     </Link>
                 </div>
 
@@ -34,9 +34,7 @@ export default function SignUp() {
                         </div>
 
                         <div className="form-footer">
-                            <button type="submit" className="btn btn-primary w-100">
-                                <FiUserPlus /> Criar uma nova conta
-                            </button>
+                            <button type="submit" className="btn btn-primary w-100">Criar uma nova conta</button>
                         </div>
                     </div>
                 </form>

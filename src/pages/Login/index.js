@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiArrowLeft, FiMail, FiKey } from 'react-icons/fi'
+import { FiArrowLeft } from 'react-icons/fi'
 
 export default function Login() {
     return (
